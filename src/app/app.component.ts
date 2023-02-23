@@ -9,7 +9,7 @@ import { interfaceResultado } from './interfaces/interfaceM';
 
 export class AppComponent {
   title = 'Resultados de partidos de Futbol';
-  descripcion = 'Esta es una aplicacion para leer ver marcadores de futbol'
+  descripcion = 'Esta es una aplicacion para ver marcadores de futbol'
   
   resultados: interfaceResultado[] = [
     {
@@ -27,8 +27,8 @@ export class AppComponent {
     {
       equipo1: 'Eintracht Frankfurt',
       equipo2: 'Napoli',
-      imagenE1: 'https://paladarnegro.net/escudoteca/inglaterra/premier/img/liverpool.jpg',
-      imagenE2: 'https://paladarnegro.net/escudoteca/espana/laliga/img/realmadrid.jpg',
+      imagenE1: 'https://paladarnegro.net/escudoteca/alemania/bundesliga/img/eintrachtfrankfurt.jpg',
+      imagenE2: 'https://paladarnegro.net/escudoteca/italia/seriea/img/napoli.jpg',
       marcadorE1: 0,
       marcadorE2: 2,
       descripcionJuego: 'Partido de ida de 8vos de la UCL',
@@ -39,8 +39,8 @@ export class AppComponent {
     {
       equipo1: 'PSG',
       equipo2: 'LOSC',
-      imagenE1: 'https://paladarnegro.net/escudoteca/inglaterra/premier/img/liverpool.jpg',
-      imagenE2: 'https://paladarnegro.net/escudoteca/espana/laliga/img/realmadrid.jpg',
+      imagenE1: 'https://paladarnegro.net/escudoteca/francia/ligue1/img/psg.jpg',
+      imagenE2: 'https://paladarnegro.net/escudoteca/francia/ligue1/img/lille.jpg',
       marcadorE1: 4,
       marcadorE2: 3,
       descripcionJuego: 'Partido de liga, jornada 24',
