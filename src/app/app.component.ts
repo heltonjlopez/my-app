@@ -15,6 +15,8 @@ export class AppComponent {
     {
       equipo1: 'Liverpool',
       equipo2: 'Real Madrid',
+      imagenE1: 'https://paladarnegro.net/escudoteca/inglaterra/premier/img/liverpool.jpg',
+      imagenE2: 'https://paladarnegro.net/escudoteca/espana/laliga/img/realmadrid.jpg',
       marcadorE1: 2,
       marcadorE2: 5,
       descripcionJuego: 'Partido de ida de 8vos de la UCL',
@@ -25,6 +27,8 @@ export class AppComponent {
     {
       equipo1: 'Eintracht Frankfurt',
       equipo2: 'Napoli',
+      imagenE1: 'https://paladarnegro.net/escudoteca/inglaterra/premier/img/liverpool.jpg',
+      imagenE2: 'https://paladarnegro.net/escudoteca/espana/laliga/img/realmadrid.jpg',
       marcadorE1: 0,
       marcadorE2: 2,
       descripcionJuego: 'Partido de ida de 8vos de la UCL',
@@ -35,6 +39,8 @@ export class AppComponent {
     {
       equipo1: 'PSG',
       equipo2: 'LOSC',
+      imagenE1: 'https://paladarnegro.net/escudoteca/inglaterra/premier/img/liverpool.jpg',
+      imagenE2: 'https://paladarnegro.net/escudoteca/espana/laliga/img/realmadrid.jpg',
       marcadorE1: 4,
       marcadorE2: 3,
       descripcionJuego: 'Partido de liga, jornada 24',

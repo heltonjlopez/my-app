@@ -1,4 +1,4 @@
-<div class="center container p-5 my-5 bg-primary text-white">
+<div class="center container p-5 my-5 bg-success text-white">
   <h1>{{ title }}</h1>
   <p>{{ descripcion }}</p>
 </div>
@@ -9,12 +9,23 @@
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">{{ resultados[0].liga }}</h5>
+          <p class="card-text">{{ resultados[0].descripcionJuego }}.</p>
           <p class="card-text">
-            {{ resultados[0].equipo1 }} <b>{{ resultados[0].marcadorE1 }}</b>
+            <img
+              src="{{ resultados[0].imagenE1 }}"
+              class="img-fluid img-res-box"
+              alt=""
+            />{{ resultados[0].equipo1 }}
+            <b>{{ resultados[0].marcadorE1 }}</b>
+            <br />
+            <img
+              src="{{ resultados[0].imagenE2 }}"
+              class="img-fluid img-res-box"
+              alt=""
+            />
             {{ resultados[0].equipo2 }} <b>{{ resultados[0].marcadorE2 }}</b>
           </p>
           <p class="card-text"></p>
-          <p class="card-text">{{ resultados[0].descripcionJuego }}.</p>
         </div>
       </div>
     </div>
@@ -22,12 +33,25 @@
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">{{ resultados[1].liga }}</h5>
+          <p class="card-text">{{ resultados[1].descripcionJuego }}.</p>
           <p class="card-text">
-            {{ resultados[1].equipo1 }} <b>{{ resultados[1].marcadorE1 }}</b>
+            <img
+              src="{{ resultados[1].imagenE1 }}"
+              class="img-fluid img-res-box"
+              alt=""
+            />{{ resultados[1].equipo1 }}
+            <b>{{ resultados[1].marcadorE1 }}</b>
+            <br />
+            <img
+              src="{{ resultados[1].imagenE2 }}"
+              class="img-fluid img-res-box"
+              alt=""
+            />
+            {{ resultados[1].equipo1 }} <b>{{ resultados[1].marcadorE1 }}</b
+            ><br />
             {{ resultados[1].equipo2 }} <b>{{ resultados[1].marcadorE2 }}</b>
           </p>
           <p class="card-text"></p>
-          <p class="card-text">{{ resultados[1].descripcionJuego }}.</p>
         </div>
       </div>
     </div>
@@ -36,7 +60,8 @@
         <div class="card-body">
           <h5 class="card-title">{{ resultados[2].liga }}</h5>
           <p class="card-text">
-            {{ resultados[2].equipo1 }} <b>{{ resultados[2].marcadorE1 }}</b>
+            {{ resultados[2].equipo1 }} <b>{{ resultados[2].marcadorE1 }}</b
+            ><br />
             {{ resultados[2].equipo2 }} <b>{{ resultados[2].marcadorE2 }}</b>
           </p>
           <p class="card-text"></p>
@@ -45,4 +70,5 @@
       </div>
     </div>
   </div>
+  <br /><br />
 </div>
