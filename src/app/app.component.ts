@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { interfaceResultado } from './interfaces/interfaceM';
+import { interfaceInfo } from './interfaces/interfaceI';
 
 @Component({
   selector: 'app-root',
@@ -47,5 +48,13 @@ export class AppComponent {
       fecha: '19 de Feb del 2023',
       liga: 'Ligue 1'
     },
+  ]
+
+  info: interfaceInfo[] = [
+    {
+      link1: 'https://www.uefa.com/uefachampionsleague/stories/',
+      link2: 'https://www.youtube.com/@UEFA/videos',
+      link3: 'https://www.starplus.com/en-hn'
+    }
   ]
 }

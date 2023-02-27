@@ -1,4 +1,4 @@
-<div class="center container p-5 my-5 bg-success text-white">
+<div class="center container p-3 my-3 bg-success text-white">
   <h1>{{ title }}</h1>
   <p>{{ descripcion }}</p>
 </div>
@@ -28,7 +28,9 @@
           <p class="card-text"></p>
         </div>
       </div>
+      <br /><br />
     </div>
+    <br />
     <div class="col-sm-4">
       <div class="card">
         <div class="card-body">
@@ -52,6 +54,7 @@
           <p class="card-text"></p>
         </div>
       </div>
+      <br /><br />
     </div>
     <div class="col-sm-4">
       <div class="card">
@@ -78,5 +81,22 @@
       </div>
     </div>
   </div>
-  <br /><br />
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link" href="{{ info[0].link1 }}" target="_blank"
+        >Últimas noticias</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{{ info[0].link2 }}" target="_blank"
+        >Ver videos</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{{ info[0].link3 }}" target="_blank"
+        >Ver partidos</a
+      >
+    </li>
+  </ul>
+  <br />
 </div>
